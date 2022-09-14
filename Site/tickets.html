@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Help Desk ELECTROSERVICE</title>
+    <meta Name="Autore"			content="Alessio Borgi">
+    <meta Name="Description"    content="5AINF">
+    <meta Name="Description"    content="Esercizio Elaborato  Maturità">
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HappyHD</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body style="background-color:#ff8c00;" onload="init()">
+
+        <div class="container">
+            <img src="images/HelpDesk.jpg" alt="Happy Help Desk"/><br><br><br><br>
+                    
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <h1 class="display-4 text-center"><br>ELECTROSERVICE Clients<br> Ticket Creation Area</h1>
+                </div>
+
+                <div class="jumbotron col-sm-6" style="background-color:lavender;">
+                    <form method="post" action="Registra_Ticket.php" autocomplete="on">
+                    <h1>New Ticket</h1>
+  
+                            <div class="form-group">
+                                <label for="Priorita">Ticket Priority:</label> <br>
+                                <select name="Priorita">
+                                    <option value = "Low"> Low </option>
+                                    <option value = "Medium"> Medium </option>
+                                    <option value = "High"> High  </option>
+                                    <option value = "Critical"> Critical </option>
+                                <select> 
+                            </div>
+
+                            <div class="form-group">
+                            <label for="Tipologia">Fault Type:</label> <br>
+                                <select name="Tipologia">
+                                    <option value = "Ascensore Hardware"> Elevator Hardware </option>
+                                    <option value = "Ascensore Software"> Elevator Software </option>
+                                    <option value = "Pannelli Solari"> Solar Panels  </option>
+                                    <option value = "Computer Hardware"> Computer Hardware </option>
+                                    <option value = "Computer Software"> Computer Software </option>
+                                <select> 
+                            </div>
+                            <div class="form-group">
+                                <label for="Descrizione Problema">Descrizione Problema:</label> <br>
+                                <textarea name = "Descrizione Problema" cols= "65" rows="6">Describe your Problem...</textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="Nominativo">Applicant Name:</label>
+                                <input type="text" id="Nominativo" placeholder="Applicant Name" name="Nominativo" maxlength="50"class="form-control" autocomplete="Nominativo" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="Data Apertura">Ticket Opening:</label>
+                                <input type="datetime" name="Data Apertura" >
+                            </div>
+                            <div class="form-group">
+                            <label for="Data Chiusura">Ticket Closure:</label>
+                                <input type="datetime" name="Data Chiusura" >
+                            </div>
+                                <button type="submit"  onclick="register()">Register Ticket</button>
+                            </div><br>
+                            <div id="alert">
+
+                            </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+</body>
+<footer class="text-center card-footer fixed-bottom">
+    <p>&copy Alessio Borgi</p>
+</footer>
+</html>
