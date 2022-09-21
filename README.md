@@ -1,6 +1,6 @@
 # IT_Secondary_School_Exam
 
-Copyright © 2022 Alessio Borgi
+Copyright © 2020 Alessio Borgi
 
 PROJECT SCOPE: Detailed Analysis of an Electric Consultancy Company and Development of a Ticketing System both from Database and Network point of view.
 
