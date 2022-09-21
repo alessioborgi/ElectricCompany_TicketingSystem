@@ -8,7 +8,7 @@ PROJECT RESULTS:
 • Company's Business Analysis.
 • Network Documents Developed: Structured Wiring Scheme, Active and Passive Trees Schemes, Subnetting.
 • GDPR focus: employees presence detection, fleet management system.
-• Smart working using Guacamole
+• Smart working using Guacamole.
 • Networks Protocols deepening.
 • Disaster and Recovery Plan Creation.
 • Authentication and Cybersecurity Deepening. 
