@@ -1,4 +1,4 @@
-# IT_Secondary_School_Exam
+# Electric Company: Ticketing System
 
 **Copyright © 2020 Alessio Borgi**
 
